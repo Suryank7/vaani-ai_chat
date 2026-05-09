@@ -8,7 +8,7 @@ import MicButton from "./MicButton";
 import WaveformVisualizer from "./WaveformVisualizer";
 import LogsPanel from "./LogsPanel";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
+const API_BASE = (process.env.NEXT_PUBLIC_API_URL || "").replace(/\/$/, "");
 
 /**
  * Main VoiceBot component.

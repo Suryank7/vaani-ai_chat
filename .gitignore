@@ -1,0 +1,82 @@
+# =========================
+# Node / Next.js (Frontend)
+# =========================
+node_modules/
+.next/
+out/
+build/
+.pnp
+.pnp.js
+coverage/
+
+# Next.js Environment variables
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+# (Make sure not to commit any real keys!)
+
+# =========================
+# Python (Backend)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.env/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# FastAPI / Uvicorn Environment Variables
+backend/.env
+.env
+# Note: Keep .env.example in version control so others know what to set
+
+# =========================
+# Project Specific (Sensitive / Logs)
+# =========================
+# Ignore chat logs to protect user privacy
+backend/chat_logs.json
+*.log
+
+# Ignore audio test files
+*.webm
+*.wav
+*.mp3
+
+# =========================
+# OS / IDE / Misc
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore gemini agent temporary files
+.gemini/
